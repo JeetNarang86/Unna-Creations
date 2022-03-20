@@ -1,0 +1,166 @@
+@import url(./CSS/all.css);
+
+:root {
+  /* Font-Family  */
+  --Oswald: "Oswald", cursive;
+  --Smooch_Sans: "Smooch_Sans", cursive;
+  --Josefin_Sans: "Josefin_Sans", cursive;
+  --Hubballi: "Hubballi", cursive;
+
+  /* Theme color  */
+  --light-blue: #00ffff;
+  --red: #ff0000;
+  --white: #ffffff;
+  --bg-color: #0f0f0f;
+
+  /* Gradient color  */
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.header {
+  display: inline;
+  width: auto;
+}
+
+.nav {
+  background-color: white;
+  /* border-radius: 10px; */
+  margin: 0px;
+  padding: 22px 5px;
+  width: 99%;
+  right: 0px;
+  top: 0px;
+  position: sticky;
+}
+
+.logo {
+  font-weight: bold !important;
+  font-size: larger !important;
+}
+
+.nav li {
+  display: inline;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  padding: 10px;
+}
+/* .nav input {
+  display: inline;
+  border-radius: 5px;
+} */
+
+.nav-items {
+  display: inline;
+}
+
+.nav-links {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: rgb(22, 21, 21, 5);
+  margin: 6px;
+  padding: 10px;
+  font-weight: 500;
+}
+#Search {
+  padding: 0px 2px;
+  margin: 1px;
+  font: caption;
+}
+
+.social {
+  display: inline-flex;
+  text-align: right;
+  position: absolute;
+  right: 12px;
+}
+
+.social i {
+  padding: 3px;
+  color: whitesmoke;
+}
+
+.social i:hover {
+  color: #00ffff;
+}
+
+/* .social a {
+  display: list-item;
+} */
+
+/* ------------site title ----------- */
+
+section {
+  height: 344px;
+  margin: 3px 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-title {
+  background: url(./Img/ladies\ fashion.jpg);
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  right: 0;
+  opacity: 0.8;
+}
+
+.site-background {
+  padding-top: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.site-title,
+h2,
+h1 {
+  margin: 0.3rem;
+  padding: 3rem;
+}
+
+h2 {
+  font-family: var(--Hubballi);
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: var(--Josefin_Sans);
+  justify-content: center;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+}
+
+/* x------------site title ----------- x*/
+
+.container {
+  display: flex;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.container a h2:hover {
+  color: blue;
+}
+
+.box {
+  margin: 23px 10px;
+  padding: 23px 12px;
+  width: 23%;
+  box-shadow: 10px 9px 10px rgb(85, 76, 76);
+}

@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.text-gray {
+  padding: 8rem 2rem;
+  font-size: 1.4rem;
+  font-family: cursive;
+}
