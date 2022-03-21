@@ -83,7 +83,7 @@ body {
 
 .social i {
   padding: 3px;
-  color: whitesmoke;
+  color: black;
 }
 
 .social i:hover {
@@ -159,8 +159,28 @@ h1 {
 }
 
 .box {
-  margin: 23px 10px;
+  margin: 23px 65px;
   padding: 23px 12px;
-  width: 23%;
+  transform: translateX(-1s);
+  transition: all 1s ease-in;
+
   box-shadow: 10px 9px 10px rgb(85, 76, 76);
+}
+
+.container img {
+  align-items: center;
+}
+
+.container p {
+  text-align: justify;
+  width: 234px;
+}
+
+/* .box {
+  transition: all 1s ease;
+} */
+
+.box:hover {
+  transform: scale(1.05);
+  border-radius: 10px;
 }
